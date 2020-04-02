@@ -1,0 +1,9 @@
+<!--
+DESCRITPION
+-->
+
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser_link" args=" 0.0 0.0 0.0 0.0 0.0 0.0 /base_link /base_laser_link 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="base_link2laser_link1" args=" -0.012 0.0 0.0 3.1415926 0.0 0.0 /base_link /base_laser_link1 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="base_link2lasermulit" args="0.0 0.0 0.0 0.0 0.0 0.0 /base_link /laser_mulit 10"/>
+</launch>

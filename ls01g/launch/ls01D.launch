@@ -1,0 +1,8 @@
+<launch>
+    <node name="talker" pkg="talker" type="talker">
+		<param name="serial_port" value="/dev/ttyUSB0"/>
+		<param name="scan_topic" value="scan"/>
+		<param name="laser_link" value="laser_link"/>
+    </node>
+
+</launch>
